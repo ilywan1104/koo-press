@@ -93,7 +93,7 @@ h1 {
   background-color: #40cfed;
 }
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .m-fix-background {
     background: -webkit-radial-gradient(100% 70%, farthest-corner,#2b8bf7,#429eeb,#2f5ac8);
     background: -o-radial-gradient(100% 70%, farthest-corner,#2b8bf7,#429eeb,#2f5ac8);
