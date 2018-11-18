@@ -1,0 +1,94 @@
+.loading {
+  position: fixed;
+  display: grid;
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  z-index: 1070;
+}
+
+body {
+  height: 3000px;
+}
+p {
+  font-weight: 100;
+}
+h1 {
+  font-size: 3rem;
+  font-weight: 100;
+}
+.row {
+  padding: 3rem 1rem;
+}
+.navbar {
+  height: 46px;
+  background-color: rgba(255, 255, 255, 0);
+  opacity: 0;
+}
+.navbar .navbar-brand {
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 300;
+}
+.navbar .navbar-brand small {
+  font-size: .8rem;
+}
+.navbar,
+.small-navbar .navbar-brand {
+  transition: all .3s linear 0s;
+  /* Firefox 4 */
+  -moz-transition: all .3s linear 0s;
+  /* Safari and Chrome */
+  -webkit-transition: all .3s linear 0s;
+  /* Opera */
+  -o-transition: all .3s linear 0s;
+}
+.small-navbar {
+  /* height: 40px; */
+  background-color: rgba(255, 255, 255, 0.5);
+  opacity: 1;
+}
+.small-navbar .navbar-brand {
+  /* font-size: 1rem; */
+  color: #333;
+}
+.small-navbar .navbar-brand small {
+  /* font-size: .6rem; */
+}
+/* .badge-info {
+  background-color: #ffd126;
+} */
+
+.background-fixed {
+  background-image: url(../images/bg_001.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  background-attachment: fixed;
+}
+.bg-row {
+  width: 0;
+  height: 0;
+  border-right: 100%;
+  border-top: 20px;
+  border-color: #fff;
+}
+
+#section_01 {
+  /* background-image: url(../images/bg_000.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-clip: content-box;
+  background-origin: border-box;
+  -webkit-background-origin:content-box;
+  background-position: center;
+  background-color: #f2f4f7; */
+  background: -webkit-radial-gradient(100% 70%, farthest-corner,#2b8bf7,#429eeb,#2f5ac8);
+  background: -o-radial-gradient(100% 70%, farthest-corner,#2b8bf7,#429eeb,#2f5ac8);
+  background: -moz-radial-gradient(100% 70%, farthest-corner,#2b8bf7,#429eeb,#2f5ac8);
+  background: radial-gradient(100% 70%, farthest-corner,#2b8bf7,#429eeb,#2f5ac8);
+}
+
+.row-function {
+  /* height: 500px !important; */
+  background-color: #40cfed;
+}
